@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
 public class DetailActivity extends AppCompatActivity {
-    private TextView tvJudul, tvKeterangan;
+    private TextView tvJudul, tvKeterangan, tvVideoid;
     private YouTubePlayerView ypvVideo;
     private Button btnKembali;
 
@@ -20,7 +20,9 @@ public class DetailActivity extends AppCompatActivity {
 
         tvJudul = findViewById(R.id.tv_judul);
         tvKeterangan = findViewById(R.id.tv_keterangan);
+        tvVideoid = findViewById(R.id.tv_videoid);
         ypvVideo = findViewById(R.id.ypv_video);
+        btnKembali = findViewById(R.id.btn_kembali);
 
     }
 }
