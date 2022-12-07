@@ -18,11 +18,11 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        tvJudul = findViewById(R.id.tv_judul);
-        tvKeterangan = findViewById(R.id.tv_keterangan);
-        tvVideoid = findViewById(R.id.tv_videoid);
-        ypvVideo = findViewById(R.id.ypv_video);
-        btnKembali = findViewById(R.id.btn_kembali);
+        tvJudul         = findViewById(R.id.tv_judul);
+        tvKeterangan    = findViewById(R.id.tv_keterangan);
+        tvVideoid       = findViewById(R.id.tv_videoid);
+        ypvVideo        = findViewById(R.id.ypv_video);
+        btnKembali      = findViewById(R.id.btn_kembali);
 
     }
 }
